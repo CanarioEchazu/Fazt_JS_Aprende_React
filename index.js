@@ -1,5 +1,8 @@
-const title = document.createElement('h1');
-title.innerText = "Hola desde JS";
+const button = document.createElement('button');
+button.innerText = 'Click me';
 
+button.addEventListener('click', function(){
+    alert('Cliked')
+});
 
-document.body.append(title);
+document.body.append(button);
